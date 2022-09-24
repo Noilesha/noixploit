@@ -33,11 +33,11 @@ except IndexError:
 	path =  str(sys.argv[0]).split('\\')
 	exit('\n  [!] Enter <'+path[len(path)-1] + '> <sites.txt>')
 
-print '   {}[1] WordPress'.format(fg)
-print '   {}[2] Joomla'.format(fg)
-print '   {}[3] Other'.format(fg)
-print '   [4] WordPress & Joomla & Other{} => {}(This option is not recommended if the list is large)'.format(fg,fr)
-print "   {}[0] Exit".format(fr)
+print('   {}[1] WordPress'.format(fg))
+print('   {}[2] Joomla'.format(fg))
+print( '   {}[3] Other'.format(fg))
+print( '   [4] WordPress & Joomla & Other{} => {}(This option is not recommended if the list is large)'.format(fg,fr))
+print( "   {}[0] Exit".format(fr))
 w = int(raw_input('\n --> : '))	
 print ''
 
