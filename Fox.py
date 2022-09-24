@@ -39,7 +39,7 @@ print( '   {}[3] Other'.format(fg))
 print( '   [4] WordPress & Joomla & Other{} => {}(This option is not recommended if the list is large)'.format(fg,fr))
 print( "   {}[0] Exit".format(fr))
 w = int(raw_input('\n --> : '))	
-print ''
+print('')
 
 def URL(url):
 	if url[-1] == "/":
