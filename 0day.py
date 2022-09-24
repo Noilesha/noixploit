@@ -15,17 +15,6 @@ sd  =   Style.DIM
 sn  =   Style.NORMAL										
 sb  =   Style.BRIGHT
 
-print """  
- {}  ___      _               ______            _       _ _   
- {} / _ \    | |             |  ____|          | |     (_) |  
- {}| | | | __| | __ _ _   _  | |__  __  ___ __ | | ___  _| |_ 
- {}| | | |/ _` |/ _` | | | | |  __| \ \/ / '_ \| |/ _ \| | __|
- {}| |_| | (_| | (_| | |_| | | |____ >  <| |_) | | (_) | | |_ 
- {} \___/ \__,_|\__,_|\__, | |______/_/\_\ .__/|_|\___/|_|\__|
- {}                    __/ |             | | - {}DC_0day Exploit V.1               
- {}                   |___/              |_| - {}t.me/deskCriminalz                 
-""".format(fr, fw, fg, fr, fg, fr, fg, fr, fg, fr, fw, fg, fr, fg)
-
 try:
     target = [i.strip() for i in open(sys.argv[1], mode='r').readlines()]
 except IndexError:
