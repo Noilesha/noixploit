@@ -15,7 +15,7 @@ sd  =   Style.DIM
 sn  =   Style.NORMAL										
 sb  =   Style.BRIGHT
 
-print """  
+print("""  
   {}[#]{} Create By ::
 	{}  ___                                                     ______  
 	{} / _ \                                                   |  ___|  
@@ -25,7 +25,7 @@ print """
 	{}\_| |_/_| |_|\___/|_| |_|\__, |_| |_| |_|\___/ \__,_|___/\_| \___/_/\_\ 
 	{}                          __/ |
 	{}                         |___/ {} Fox RSF {}[Priv8]
-""".format(fr, fw, fg, fr, fg, fr, fg, fr, fg, fr, fw, fg, fr, fg)
+""").format(fr, fw, fg, fr, fg, fr, fg, fr, fg, fr, fw, fg, fr, fg)
 
 try:
     target = [i.strip() for i in open(sys.argv[1], mode='r').readlines()]
